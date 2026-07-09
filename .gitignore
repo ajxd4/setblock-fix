@@ -3,6 +3,8 @@
 build/
 bin/
 out/
+/gradlew
+/gradlew.bat
 
 # IDEs
 .idea/
