@@ -2,7 +2,7 @@
 /.gradle/
 /.vscode/
 /.idea/
-/.bin/
+/bin/
 /build/
 /run/
 /out/
