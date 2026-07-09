@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.ajxd4.setblockfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LargeDripstoneFeatureMixin",
+    "WindModifierMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

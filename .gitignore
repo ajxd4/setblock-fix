@@ -1,18 +1,11 @@
-# Gradle
-.gradle/
-build/
-bin/
-out/
-
-# IDEs
-.idea/
-*.iml
-*.iws
-.vscode/
-.classpath
-.project
-.settings/
-
-# OS/Misc
-.DS_Store
-Thumbs.db
+# Project exclude paths
+/.gradle/
+/.vscode/
+/.idea/
+/.bin/
+/build/
+/run/
+/out/
+/logs/
+/.DS_Store
+/build.log
