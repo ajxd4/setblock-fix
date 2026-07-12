@@ -3,7 +3,7 @@
 A Fabric mod for Minecraft 1.21.1 that backports the fix for [MC-248758](https://bugs.mojang.com/browse/MC-248758) (Large Dripstone generation can trigger `setBlock` in an unloaded chunk).
 
 ## Features
-- Fixes chunk generation crashes/lag spikes associated with Large Dripstone placing blocks in unloaded chunks.
+- Fixes chunk generation errors, lag spikes and log spam associated with Large Dripstone placing blocks in unloaded chunks.
 
 ## Installation
 1. Install [Fabric Loader](https://fabricmc.net/use/) (0.16.5 or newer recommended).
@@ -11,7 +11,7 @@ A Fabric mod for Minecraft 1.21.1 that backports the fix for [MC-248758](https:/
 3. Drop the `setblock-fix` `.jar` file into your `mods` folder.
 
 ## Building from source
-This project uses Gradle. To build the mod locally:
+To build the mod locally:
 
 ```bash
 # Windows
